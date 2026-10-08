@@ -38,3 +38,5 @@ Thumbs.db
 
 # Local Claude Code tooling — not part of the product
 .claude/
+
+.env.example
