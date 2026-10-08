@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Builds / dist
+dist/
+build/
+out/
+*.exe
+*.msi
+*.dmg
+*.AppImage
+
+# Env & secrets — never commit API keys
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# Test material — real resumes contain personal data (PII). Never commit.
+testdata/
+
+# Logs & caches
+*.log
+.cache/
+.turbo/
+coverage/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Claude Code tooling — not part of the product
+.claude/
